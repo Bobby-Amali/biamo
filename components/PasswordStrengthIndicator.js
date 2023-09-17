@@ -4,9 +4,6 @@ import React, { useState } from 'react';
 
 const PasswordStrengthIndicator = ({ password }) => {
   const calculateStrength = (password) => {
-    // Implement your own password strength calculation logic here
-    // Return a value between 0 and 5 indicating the strength
-    // You can use regular expressions, length checks, etc.
     return Math.min(Math.floor(password.length / 2), 5);
   };
 

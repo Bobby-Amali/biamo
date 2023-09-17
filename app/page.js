@@ -1,4 +1,4 @@
-import { Header, Hero, Tech, Steps, ContactCTA, MissionStatement, Footer  } from '@/components'
+import { Header, Hero, Tech, Steps, ContactCTA, MissionStatement, Footer, AnimatedSection  } from '@/components'
 import React from 'react'
 
 const page = () => {
@@ -8,10 +8,17 @@ const page = () => {
       <Header />
       <Hero />
     </div>
+
     <Tech />
-    <Steps />
-    <ContactCTA />
-    <MissionStatement />
+    <AnimatedSection>
+      <Steps />
+    </AnimatedSection>
+    <AnimatedSection>
+      <ContactCTA />
+    </AnimatedSection>
+    <AnimatedSection>
+      <MissionStatement />
+    </AnimatedSection>
     <Footer />
     </>
   )

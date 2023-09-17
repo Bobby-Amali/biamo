@@ -5,9 +5,9 @@ import Steps from "./Steps";
 import MissionStatement from "./MissionStatement";
 import Footer from "./Footer";
 import ContactCTA from "./ContactCTA";
-import ScrollWrapper from "./ScrollWrapper";
 import OTPInputBox from "./OTPInputBox"
 import PasswordStrengthIndicator from "./PasswordStrengthIndicator";
+import AnimatedSection from "./AnimatedSection";
 
 export {
   Header,
@@ -17,7 +17,7 @@ export {
   MissionStatement,
   ContactCTA,
   Footer,
-  ScrollWrapper,
   OTPInputBox,
-  PasswordStrengthIndicator
+  PasswordStrengthIndicator,
+  AnimatedSection
 }

@@ -7,7 +7,7 @@ const ContactCTA = () => {
         <h3 className='text-[#E14594] text-sm sm:text-2xl font-medium'>
           Shape the Future of Breastfeeding with Biamo
         </h3>
-        <h1 className='text-[#ADADAD] text-2xl sm:text-6xl sm:pr-40 pt-4 font-semibold'>
+        <h1 className='highlight text-2xl sm:text-6xl sm:pr-40 pt-4 font-semibold'>
           We can't wait to guide you on this rewarding journey. Let's create tech-enabled breastfeeding solutions 
           that bring immense value to mothers worldwide. Ready for the leap? Connect with Biamo today!
         </h1>
